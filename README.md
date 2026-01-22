@@ -10,11 +10,11 @@ Leverage Adobe Learning Manager's full client-side SDK to build custom experienc
 I'm genuinely thrilled about this capability. The front page JavaScript injection feature doesn't just let you style things - **Adobe has exposed the entire application layer.**
 
 This is a full SDK with:
-- 🔐 **Authentication & Tokens** - CSRF tokens, native extension tokens, commerce tokens
-- 👤 **User Data Access** - Read and write user profiles, custom fields
-- 🧭 **Navigation API** - Programmatic routing through official navigation system
-- ⚙️ **Configuration Access** - API endpoints, mounting points, widget config
-- 🎨 **Theme Awareness** - Full theme object with colors, fonts, branding
+- <img src="icons/handcuffs.svg" width="16" style="background:#2a2a2a;padding:2px;border-radius:3px;vertical-align:middle;"> **Authentication & Tokens** - CSRF tokens, native extension tokens, commerce tokens
+- <img src="icons/man.svg" width="16" style="background:#2a2a2a;padding:2px;border-radius:3px;vertical-align:middle;"> **User Data Access** - Read and write user profiles, custom fields
+- <img src="icons/sailboat.svg" width="16" style="background:#2a2a2a;padding:2px;border-radius:3px;vertical-align:middle;"> **Navigation API** - Programmatic routing through official navigation system
+- <img src="icons/gear.svg" width="16" style="background:#2a2a2a;padding:2px;border-radius:3px;vertical-align:middle;"> **Configuration Access** - API endpoints, mounting points, widget config
+- <img src="icons/brightEye.svg" width="16" style="background:#2a2a2a;padding:2px;border-radius:3px;vertical-align:middle;"> **Theme Awareness** - Full theme object with colors, fonts, branding
 
 You're not in a sandbox. The `primeApiURL` + `nativeExtensionToken` gives you the same API access that headless integrations use - headless LMS capabilities inside the headed experience.
 
@@ -207,24 +207,47 @@ ALM-FrontPageJSInjection/
 
 ## Brutalist Bob Icons
 
-The panel uses custom SVG icons in the "Brutalist Bob" style - hand-drawn, slightly imperfect, full of character. Available icons:
+The panel uses custom SVG icons in the "Brutalist Bob" style - hand-drawn, slightly imperfect, full of character. All icons are white with transparent backgrounds, designed to be displayed on dark surfaces.
 
-| Icon | Name | Suggested Use |
-|------|------|---------------|
-| 📦 | `catalog` | Course catalog, content library |
-| 🍎 | `learning` | My Learning, progress |
-| ⚙️ | `skills` | Skills, competencies |
-| 💬 | `social` | Social learning, community |
-| 👽 | `alien` | Fun features, easter eggs |
-| 🐄 | `cowSkull` | Achievements, challenges |
-| 🎮 | `gamepad` | Games, gamification |
-| ✈️ | `plane` | Quick actions, shortcuts |
-| ⚛️ | `atom` | Science, technical content |
-| 💡 | `bulb` | Ideas, tips, recommendations |
-| 📊 | `chart` | Analytics, progress tracking |
-| 🎯 | `target` | Goals, objectives |
-| 🧠 | `brain` | Knowledge, assessments |
-| 🏅 | `badge` | Badges, rewards |
+### Sample Icons
+
+<div style="background: #1a1a1a; padding: 20px; border-radius: 8px; display: inline-block;">
+  <img src="icons/boxMod.svg" width="40" height="40" alt="Box" style="margin: 10px; filter: drop-shadow(0 0 2px rgba(255,255,255,0.3));">
+  <img src="icons/apple.svg" width="40" height="40" alt="Apple" style="margin: 10px; filter: drop-shadow(0 0 2px rgba(255,255,255,0.3));">
+  <img src="icons/gear.svg" width="40" height="40" alt="Gear" style="margin: 10px; filter: drop-shadow(0 0 2px rgba(255,255,255,0.3));">
+  <img src="icons/alien.svg" width="40" height="40" alt="Alien" style="margin: 10px; filter: drop-shadow(0 0 2px rgba(255,255,255,0.3));">
+  <img src="icons/cowSkull.svg" width="40" height="40" alt="Skull" style="margin: 10px; filter: drop-shadow(0 0 2px rgba(255,255,255,0.3));">
+  <img src="icons/robot.svg" width="40" height="40" alt="Robot" style="margin: 10px; filter: drop-shadow(0 0 2px rgba(255,255,255,0.3));">
+  <img src="icons/atomic.svg" width="40" height="40" alt="Atom" style="margin: 10px; filter: drop-shadow(0 0 2px rgba(255,255,255,0.3));">
+  <img src="icons/lightbulb.svg" width="40" height="40" alt="Lightbulb" style="margin: 10px; filter: drop-shadow(0 0 2px rgba(255,255,255,0.3));">
+  <img src="icons/heart.svg" width="40" height="40" alt="Heart" style="margin: 10px; filter: drop-shadow(0 0 2px rgba(255,255,255,0.3));">
+  <img src="icons/eye.svg" width="40" height="40" alt="Eye" style="margin: 10px; filter: drop-shadow(0 0 2px rgba(255,255,255,0.3));">
+</div>
+
+### Icon Library (79 icons)
+
+| Icon | Filename | Suggested Use |
+|------|----------|---------------|
+| <img src="icons/boxMod.svg" width="24" style="background:#2a2a2a;padding:4px;border-radius:4px;"> | `boxMod.svg` | Course catalog, content library |
+| <img src="icons/apple.svg" width="24" style="background:#2a2a2a;padding:4px;border-radius:4px;"> | `apple.svg` | My Learning, progress, health |
+| <img src="icons/gear.svg" width="24" style="background:#2a2a2a;padding:4px;border-radius:4px;"> | `gear.svg` | Skills, competencies, settings |
+| <img src="icons/alien.svg" width="24" style="background:#2a2a2a;padding:4px;border-radius:4px;"> | `alien.svg` | Fun features, easter eggs |
+| <img src="icons/cowSkull.svg" width="24" style="background:#2a2a2a;padding:4px;border-radius:4px;"> | `cowSkull.svg` | Achievements, challenges |
+| <img src="icons/robot.svg" width="24" style="background:#2a2a2a;padding:4px;border-radius:4px;"> | `robot.svg` | AI features, automation |
+| <img src="icons/atomic.svg" width="24" style="background:#2a2a2a;padding:4px;border-radius:4px;"> | `atomic.svg` | Science, technical content |
+| <img src="icons/lightbulb.svg" width="24" style="background:#2a2a2a;padding:4px;border-radius:4px;"> | `lightbulb.svg` | Ideas, tips, recommendations |
+| <img src="icons/heart.svg" width="24" style="background:#2a2a2a;padding:4px;border-radius:4px;"> | `heart.svg` | Favorites, likes, wellness |
+| <img src="icons/eye.svg" width="24" style="background:#2a2a2a;padding:4px;border-radius:4px;"> | `eye.svg` | View, preview, visibility |
+| <img src="icons/man.svg" width="24" style="background:#2a2a2a;padding:4px;border-radius:4px;"> | `man.svg` | User profile, learner |
+| <img src="icons/woman.svg" width="24" style="background:#2a2a2a;padding:4px;border-radius:4px;"> | `woman.svg` | User profile, learner |
+| <img src="icons/sailboat.svg" width="24" style="background:#2a2a2a;padding:4px;border-radius:4px;"> | `sailboat.svg` | Journey, progress, navigation |
+| <img src="icons/car.svg" width="24" style="background:#2a2a2a;padding:4px;border-radius:4px;"> | `car.svg` | Fast track, acceleration |
+| <img src="icons/guitar.svg" width="24" style="background:#2a2a2a;padding:4px;border-radius:4px;"> | `guitar.svg` | Creative courses, arts |
+| <img src="icons/coffee.svg" width="24" style="background:#2a2a2a;padding:4px;border-radius:4px;"> | `coffee.svg` | Break time, casual learning |
+| <img src="icons/burger.svg" width="24" style="background:#2a2a2a;padding:4px;border-radius:4px;"> | `burger.svg` | Menu, options |
+| <img src="icons/strawberry.svg" width="24" style="background:#2a2a2a;padding:4px;border-radius:4px;"> | `strawberry.svg` | Rewards, sweet achievements |
+
+**All 79 icons available in the [icons/](icons/) directory**, including: numbers (one-ten), food (noodles, toast, bento, raman, kiwi), objects (axe, hatchet, tank, handcuffs), symbols (infinity, spirals, hearts), and more!
 
 ## Browser Support
 
